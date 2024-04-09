@@ -1,18 +1,21 @@
 #  The contact options.
 
 - type: github
-  icon: "fab fa-github"
+  icon: 'fab fa-github'
+  url: 'https://github.com/cclvi256'
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: stack-overflow
+  icon: 'fab fa-stack-overflow'
+  url:  'https://stackoverflow.com/users/22684952/cclvi256'
 
 - type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+  icon: 'fas fa-envelope'
+  url: 'mailto://lialh4@qq.com'
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+# - type: wechat
+#   icon: 'fab fa-weixin'
+  
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
@@ -23,6 +26,4 @@
 #   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Linkedin homepage
 #
-# - type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
+
