@@ -19,3 +19,6 @@ package-lock.json
 
 # Misc
 assets/js/dist
+
+# Obsidian
+_posts/.obsidian/
