@@ -76,4 +76,4 @@ Both Java and C# provides collection classes. You need to import them with `impo
 
 From this we can also discover the difference between Java and C#: Java uses packages while C# uses namespaces.
 
-In Java, all the collection classes are mutable.
+In Java, almost all the collection classes with simple class name are mutable.

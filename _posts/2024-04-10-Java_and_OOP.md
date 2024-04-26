@@ -6,8 +6,7 @@ categories:
   - en
 tags:
   - Java
-  - Software
-  - Construction
+  - Software Construction
   - OOP
 math: true
 ---
