@@ -1,8 +1,13 @@
 ---
 title: Fundamental Java Syntax
 date: 2024-03-05 18:30:00 +0800
-categories: [Software Construction, en]
-tags: [Java, Software Construction, OOP]
+categories:
+    - Software Construction
+    - en
+tags:
+    - Java
+    - Software Construction
+    - OOP
 math: true
 ---
 

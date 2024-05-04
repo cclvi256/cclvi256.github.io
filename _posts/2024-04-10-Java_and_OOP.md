@@ -37,7 +37,7 @@ But when using OOP languages, such as C++ and Java, his muscles are `private`, s
 
 So when object-oriented, he hear someone let himself stand up, first he use his **eyes** and **memory** to judge if he'll be blocked when standing up, use his **brain** to choose his position and which muscles to use, then send the instructions to **muscle** through **spinal cord** and **nerve**. This is consistent with the way humans think.
 
-When using structured programming, we can found the functions are highly coupled. For example, the `stand()` has at least 4 groups of parameters, the first is Eric, **whom was let to stand**, the second is his **position**, the third is his **surroundings**, the fourth is his **physical status**, etc. In fact, each of the groups of parameter can contain many items from other functions. High coupling cannot be more terrible in teamwork, because we should know all about your teammate's code or interfaces.
+Then it comes to the comparison on code level. When using structured programming, we can found the functions are highly coupled. For example, the `stand()` has at least 4 groups of parameters, the first is Eric, **whom was let to stand**, the second is his **position**, the third is his **surroundings**, the fourth is his **physical status**, etc. In fact, each of the groups of parameter can contain many items from other functions. High coupling cannot be more terrible in teamwork, because we should know all about your teammate's code or interfaces.
 
 But things will get better when using OOP, when using OOP, the only data interaction can be from objects. Eric is a complex object composited of his **physiological systems**, **organs**, **tissues**, or even **cells**. So the coupling relationships are simpler and clearer, and each of the parts has to do its best, which's already enough.
 
@@ -66,7 +66,7 @@ That's because the pointer. Even if a field is declared as `private`, it can sti
 
 #### Interfaces and Abstract Classes
 
-An abstract class is a class that cannot be instantiated. As for the other features, it's almost the same to normal classes. Abstract classes can have fields, methods, etc., can implement an interface, extend a class, or extended. Each of the methods in an abstract class is implicitly abstract, so there's no need to put `abstract` modifier.
+An abstract class is a class that cannot be instantiated. To some extent it's a defensive approach. As for the other features, it's almost the same to normal classes. Abstract classes can have fields, methods, etc., can implement an interface, extend a class, or extended. Each of the methods in an abstract class is implicitly abstract, so there's no need to put `abstract` modifier.
 
 Interface, is similar to class to some extent, but have many differences to class. First, like the abstract class, interfaces cannot be instantiated, either. Additionally, there's a strict limit to the interface members. Only methods, `public static final` fields are allowed to be a member of an interface. Like the abstract class, the methods of an interface is also implicitly abstract.
 
@@ -128,7 +128,7 @@ public class WildGoose extends FlyableBird implements IChirpable {
 }
 ```
 
-In this example we can find out that the
+In this example we can find out that the meaning of overriding, it is naturally the diverse principle resulting to overriding. The static type inspection cannot decide which method to call, but the object in the runtime have its own type, so the exact method to be called is selected in runtime.
 
 ### Polymorphism
 
@@ -158,9 +158,11 @@ I have to admit it a good instance of method overloading, despite the meaningles
 
 #### Parametric Polymorphism, Generic
 
-Generic is a feature that allows type as a parameter when declaring classes, interfaces, and methods. In fact, when learning data structures, we can slightly find why generic is necessary. Maybe you have implemented a stack for integers, but, if I want to have a stack of characters, you have to write another stack for characters. So, if the type can be the parameter when declaring stack and its methods, the stack code can be reused better. 
+Generic is a feature that allows type as a parameter when declaring classes, interfaces, and methods. In fact, when learning data structures, we can slightly find why generic is necessary. Maybe you have implemented a stack for integers, but, if I want to have a stack of characters, you have to write another stack for characters. So, if the type can be the parameter when declaring stack and its methods, the stack code can be reused better.
 
 #### Subtype Polymorphism
+
+Subtype polymorphism means that an object of a type can be replaced with another object with this type's subtype. If so, the Liskov substitution principle should be observed.
 
 > Software Reusability and Liskov Substitution Principle.
 >
