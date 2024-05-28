@@ -3,7 +3,6 @@ title: Java and OOP
 date: 2024-04-10 11:20:00 +0800
 categories:
   - Software Construction
-  - en
 tags:
   - Java
   - Software Construction
