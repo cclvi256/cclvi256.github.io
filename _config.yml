@@ -97,11 +97,11 @@ comments:
     repo: cclvi256/cclvi256.github.io # <gh-username>/<repo>
     repo_id: R_kgDOLx5Ovg # <repo-id>
     category: General
-    category_id: DIC_kwDOLx5Ovs4Ce7S
+    category_id: DIC_kwDOLx5Ovs4Ce7S6
     mapping: pathname # optional, default to 'pathname'
-    input_position: top # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    input_position: bottom # optional, default to 'bottom'
+    lang: en # optional, default to the value of `site.lang`
+    reactions_enabled: 1 # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
