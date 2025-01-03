@@ -14,7 +14,7 @@ tags:
 math: true
 ---
 
-## POSIX and Linux
+## POSIX and Linux Multitreading Model
 
 POSIX (Portable Operating System Interface) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems, which ensures the compatibility and portability between various UNIX-like systems. Linux is mostly POSIX-compliant, indicating that Linux follows many POSIX standards.
 
