@@ -37,7 +37,9 @@ sudo apt install -y git gcc g++ llvm clang lldb make cmake tmux htop btop zsh ne
 sh -c "$(curl -fsSL https://install.ohmyz.sh/)"
 ```
 
-This command will automatically install oh-my-zsh and set `zsh` as the default shell. After these are done, you will get into a zsh session. Then install the `zsh-autosuggestions` and `zsh-syntax-highlighting` plugins:
+This command will automatically install oh-my-zsh and set `zsh` as the default shell.
+After these are done, you will get into a zsh session.
+Then install the `zsh-autosuggestions` and `zsh-syntax-highlighting` plugins:
 
 ```zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
