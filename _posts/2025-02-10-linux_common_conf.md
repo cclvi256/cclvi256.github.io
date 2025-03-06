@@ -63,4 +63,20 @@ ZSH_THEME="candy"
 HYPHEN_INSENSITIVE="true"
 ```
 
-I like the most simple locale settings, so I will also change locale to `C.UTF-8`. If this is my own device.
+I like the most simple locale settings, so I will also change locale to `C.UTF-8`. If this is my own device. If this machine is not mine, I will set this in my `~/.zshrc`:
+
+```zsh
+export LC_ALL=C.UTF-8
+```
+
+## TMUX Configuration
+
+You can see the TMUX help document by pressing `Ctrl + B` (abbrev. `C-b`) and then `?`.
+
+By default, TMUX have no mouse support. You can enable it temporarily by pressing `C-b` and then `:` to enter the command mode, then type `set -g mouse on` and press Enter.
+
+If you want to enable mouse support permanently, you can add the following line to your `~/.tmux.conf`:
+
+```tmux
+set -g mouse on
+```
