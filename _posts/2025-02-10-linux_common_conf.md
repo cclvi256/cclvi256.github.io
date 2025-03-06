@@ -77,6 +77,6 @@ By default, TMUX have no mouse support. You can enable it temporarily by pressin
 
 If you want to enable mouse support permanently, you can add the following line to your `~/.tmux.conf`:
 
-```tmux
+```shell
 set -g mouse on
 ```
